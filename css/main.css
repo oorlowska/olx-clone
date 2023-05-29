@@ -12,7 +12,7 @@ body {
   letter-spacing: 1px;
 }
 
-.navigation {
+nav {
   display: flex;
   align-items: center;
   position: fixed;
@@ -22,43 +22,89 @@ body {
   height: 74px;
   background-color: #002f34;
 }
-.navigation .navigation-bar {
+nav .navigation-bar {
   width: 1029px;
   font-size: 16px;
   padding: 0 24px;
   margin: 0 auto;
 }
-.navigation .brand {
+nav .brand {
   float: left;
 }
-.navigation .link {
+nav .link {
   color: white;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
   padding: 0 15px;
 }
-.navigation .myicon {
+nav .myicon {
   padding-right: 17px;
   font-size: 19px;
 }
-.navigation .myheart {
+nav .myheart {
   font-size: 19px;
 }
-.navigation .button {
+nav .button {
   height: 44px;
   width: 180px;
   border: 4px solid white;
   border-radius: 3px;
   transition: 0.3s;
 }
-.navigation .navigation-links {
+nav .navigation-links {
   float: right;
 }
-.navigation .link:hover {
+nav .link:hover {
   color: grey;
 }
-.navigation .button:hover {
+nav .button:hover {
+  background-color: #002f34;
+  color: white;
+}
+
+main {
+  position: relative;
+  top: 74px;
+}
+main .search-section {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  background-color: #f2f4f5;
+}
+main .search-section .search-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 65px;
+  width: 350px;
+  height: 80px;
+  background-color: white;
+}
+main .search-section .search {
+  width: 300px;
+  height: 30px;
+  border: 0;
+}
+main .search-section .search-local {
+  width: 200px;
+  height: 30px;
+  border: 0;
+}
+main .search-section .search-icon {
+  padding: 0 10px;
+  font-size: 22px;
+}
+main .search-section .click-search {
+  width: 150px;
+  height: 80px;
+  font-weight: bold;
+  border: 0;
+  background-color: white;
+  transition: 0.3s;
+}
+main .search-section .click-search:hover {
   background-color: #002f34;
   color: white;
 }/*# sourceMappingURL=main.css.map */

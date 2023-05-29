@@ -10,11 +10,11 @@
 
 body {
 	background-color: #333;
-	font-family: 'Geomanist', Arial, sans-serif;                             
+	font-family: 'Geomanist', Arial, sans-serif;
 	letter-spacing: 1px;
 }
 
-.navigation {
+nav {
 	display: flex;
 	align-items: center;
 	position: fixed;
@@ -71,5 +71,58 @@ body {
 	.button:hover {
 		background-color: $green;
 		color: $white;
+	}
+}
+
+main {
+	position: relative;
+	top: 74px;
+
+	.search-section {
+		display: flex;
+		justify-content: center;
+		height: 220px;
+		background-color: $lightgrey;
+
+		.search-content {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			margin-top: 65px;
+			width: 350px;
+			height: 80px;
+			background-color: $white;
+		}
+
+		.search {
+			width: 300px;
+			height: 30px;
+			border: 0;
+		}
+
+		.search-local {
+			width: 200px;
+			height: 30px;
+			border: 0;
+		}
+
+		.search-icon {
+			padding: 0 10px;
+			font-size: 22px;
+		}
+
+		.click-search {
+			width: 150px;
+			height: 80px;
+			font-weight: bold;
+			border: 0;
+			background-color: $white;
+			transition: 0.3s;
+		}
+
+		.click-search:hover {
+			background-color: $green;
+			color: $white;
+		}
 	}
 }
