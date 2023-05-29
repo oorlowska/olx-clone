@@ -32,10 +32,20 @@
 
     <main>
         <div class="search-section">
-            <div class="search-content search-bar"><i class="fa-solid fa-magnifying-glass search-icon"></i><input class="form-control search" list="datalistOptions" id="exampleDataList" placeholder="33 999 666 ogłoszeń blisko Ciebie">
+            <div class="search-content search-bar"><i class="fa-solid fa-magnifying-glass search-icon"></i><input
+                    class="form-control search" list="datalistOptions" id="exampleDataList"
+                    placeholder="33 999 666 ogłoszeń blisko Ciebie">
             </div>
-            <div class="search-content local"><i class="fa-solid fa-location-dot search-icon"></i><input class="form-control search-local" list="datalistOptions" id="exampleDataList" placeholder="cała Polska"></div>
-            <div class="search-content search-button"><button class="click-search">Szukaj <i class="fa-solid fa-magnifying-glass search-icon"></i></button></div>
+            <div class="search-content local"><i class="fa-solid fa-location-dot search-icon"></i>
+                <select class="form-select search-local" aria-label="Default select example">
+                    <option selected>Cała Polska</option>
+                    <option value="1" class="voivodeship">Zachodniopomorskie</option>
+                    <option value="2" class="voivodeship">Pomorskie</option>
+                    <option value="3" class="voivodeship">Warmińsko-Mazurskie</option>
+                </select>
+            </div>
+            <div class="search-content search-button"><button class="click-search">Szukaj <i
+                        class="fa-solid fa-magnifying-glass search-icon"></i></button></div>
         </div>
 
 
