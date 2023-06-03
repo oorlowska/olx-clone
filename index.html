@@ -22,9 +22,7 @@
                 <a class="link" href="#inbox"><i class="myicon fa-sharp fa-regular fa-comment"></i>Wiadomości</a>
                 <a class="link" href="#wishlist"><i class="myheart fa-sharp fa-regular fa-heart"></i></a>
                 <a class="link" href="#account"><i class="myicon fa-regular fa-user"></i>Twoje konto</a>
-                <a class="link" href="#new-advertisement"><button type="button"
-                        class="btn btn-light fw-bold button">Dodaj
-                        ogłoszenie</button>
+                <a class="link" href="#new-advertisement"><button type="button" class="button">Dodaj ogłoszenie</button>
                 </a>
             </div>
         </div>
@@ -32,22 +30,54 @@
 
     <main>
         <div class="search-section">
-            <div class="search-content search-bar"><i class="fa-solid fa-magnifying-glass search-icon"></i><input
-                    class="form-control search" list="datalistOptions" id="exampleDataList"
-                    placeholder="33 999 666 ogłoszeń blisko Ciebie">
+            <div class="search-content">
+                <div class="search-bar"><i class="fa-solid fa-magnifying-glass search-icon1"></i><input type="text"
+                        placeholder="33 999 666 ogłoszeń blisko Ciebie"></div>
+                <div class="search-local"><i class="fa-solid fa-location-dot search-icon"></i>
+                    <select name="city" id="city">
+                        <option selected>Cała Polska</option>
+                        <option value="voivodeship">Zachodniopomorskie</option>
+                        <option value="voivodeship">Pomorskie</option>
+                        <option value="voivodeship">Warmińsko-Mazurskie</option>
+                        <option value="voivodeship">Mazpwieckie</option>
+                    </select>
+                </div>
+                <div class="click-search"><button type="button" class="click-search">Szukaj <i
+                            class="fa-solid fa-magnifying-glass search-icon"></i></button></div>
             </div>
-            <div class="search-content local"><i class="fa-solid fa-location-dot search-icon"></i>
-                <select class="form-select search-local" aria-label="Default select example">
-                    <option selected>Cała Polska</option>
-                    <option value="1" class="voivodeship">Zachodniopomorskie</option>
-                    <option value="2" class="voivodeship">Pomorskie</option>
-                    <option value="3" class="voivodeship">Warmińsko-Mazurskie</option>
-                </select>
-            </div>
-            <div class="search-content search-button"><button class="click-search">Szukaj <i
-                        class="fa-solid fa-magnifying-glass search-icon"></i></button></div>
         </div>
 
+        <div class="categories-section">
+            <h2>Kategorie główne</h2>
+            <div class="categories-select">
+                <div class="category">Antyki i Kolekcje</div>
+                <div class="category">Motoryzacja</div>
+                <div class="category">Nieruchomości</div>
+                <div class="category">Praca</div>
+                <div class="category">Dom i Ogród</div>
+                <div class="category">Elektronika</div>
+                <div class="category">Moda</div>
+                <div class="category">Rolnictwo</div>
+                <div class="category">Zwierzęta</div>
+                <div class="category">Dla Dzieci</div>
+                <div class="category">Sport i Hobby</div>
+                <div class="category">Muzyka i Edukacja</div>
+                <div class="category">Zdrowie i Uroda</div>
+                <div class="category">Usługi</div>
+                <div class="category">Noclegi</div>
+                <div class="category">Wypożyczalnia</div>
+                <div class="category">Dla Firm</div>
+                <div class="category">Dla Ukrainy</div>
+                <div class="category">Oddam za darmo</div>
+                <div class="category">Baseny</div>
+                <div class="category">Rowery</div>
+                <div class="category">Ryneczek z InPost za 1 zł</div>
+                <div class="category">Outlet Dom i Ogród</div>
+                <div class="category">Zorganizuj imprezę</div>
+                <div class="category">Przesyłka z InPost za 1 zł</div>
+                <div class="category">Wyprzedaż nowych aut</div>
+            </div>
+        </div>
 
     </main>
 

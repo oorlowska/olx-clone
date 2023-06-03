@@ -57,7 +57,7 @@ nav {
 		width: 180px;
 		border: 4px solid $white;
 		border-radius: 3px;
-		transition: 0.3s;
+		transition: 0.6s;
 	}
 
 	.navigation-links {
@@ -82,48 +82,58 @@ main {
 .search-section {
 	display: flex;
 	justify-content: center;
-	height: 220px;
+	height: 200px;
 	background-color: $lightgrey;
 
 	.search-content {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		margin-top: 65px;
-		height: 80px;
+		margin-top: 55px;
+		height: 76px;
 		background-color: $white;
 		border-radius: 2px;
-		border-right: 1px solid $lightgrey;
-		border-left: 1px solid $lightgrey;
 	}
 
-	.search {
-		padding: 8px 20px;
+	.search-bar {
+		padding: 5px 20px;
 		margin-right: 5px;
-		width: 500px;
+		width: 600px;
 		height: 30px;
-		border: 0;
+
+		.search-icon1 {
+			padding: 0 20px;
+			font-size: 22px;
+		}
+	}
+
+	input {
+		width: 400px;
 	}
 
 	.search-local {
 		width: 300px;
 		height: 30px;
 		margin-right: 5px;
-		border: 0;
+		padding-top: 5px;
+	}
+
+	select {
+		width: 250px;
 	}
 
 	.search-icon {
-		padding: 0 20px;
+		padding-left: 7px;
 		font-size: 22px;
 	}
 
 	.click-search {
-		width: 150px;
-		height: 80px;
+		width: 140px;
+		height: 76px;
 		font-weight: bold;
 		border: 0;
 		background-color: $white;
-		transition: 0.3s;
+		transition: 0.5s;
 	}
 
 	.click-search:hover {
@@ -131,13 +141,27 @@ main {
 		color: $white;
 	}
 
-	.voivodeship:hover {
-		background-color: $green;
+	input,
+	select {
+		border-color: transparent;
 	}
+}
 
-	.form-control:focus,
-	.form-select:focus {
-		border-color: black;
-		box-shadow: none;
-	}
+.categories-section {
+	height: 600px;
+	background-color: $white;
+
+.categories-select {
+	width: 800px;
+}
+
+.category {
+	height: 80px;
+	width: 80px;
+	background-color: blue;
+	border-radius: 50%;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
 }
