@@ -67,6 +67,11 @@ main {
   position: relative;
   top: 74px;
 }
+main h2 {
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 800;
+}
 
 .search-section {
   display: flex;
@@ -133,11 +138,6 @@ main {
   height: 700px;
   background-color: white;
 }
-.categories-section h2 {
-  text-align: center;
-  padding: 40px 0;
-  font-weight: 800;
-}
 .categories-section .categories-select {
   position: absolute;
   margin: 150px 0;
@@ -165,4 +165,68 @@ main {
 .categories-section .category-name:hover {
   background-color: #002f34;
   color: white;
+}
+
+.ads {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f4f5;
+  height: 1200px;
+}
+.ads .card-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 150px 0;
+  width: 1100px;
+}
+.ads .card {
+  height: 300px;
+  width: 250px;
+  padding: 15px;
+  border: none;
+  margin: 8px;
+}
+.ads .card-img {
+  height: 160px;
+  width: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
+.ads .card-details p {
+  margin: 0;
+  padding: 0;
+}
+.ads .card-details h4 {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.ads .card-details .card-city {
+  margin-top: 45px;
+  font-size: 11px;
+  font-weight: lighter;
+  color: grey;
+  letter-spacing: 0;
+}
+.ads .card-details .card-price {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+.ads .card-details i {
+  margin-left: 150px;
+  font-size: 20px;
+  color: grey;
+}
+.ads .card-details .card-name:hover {
+  background-color: #002f34;
+  color: white;
+}
+.ads .card-details i:hover {
+  color: #002f34;
 }/*# sourceMappingURL=main.css.map */
