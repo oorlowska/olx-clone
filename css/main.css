@@ -30,6 +30,10 @@ nav .navigation-bar {
 }
 nav .brand {
   float: left;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
 }
 nav .link {
   color: white;
@@ -274,4 +278,81 @@ footer .first-footer .buisness-details {
 footer .first-footer .buisness-details:hover {
   background-color: #002f34;
   color: white;
+}
+footer .second-footer {
+  height: 350px;
+  width: 100%;
+  background-color: #cbf7ee;
+  justify-content: center;
+  text-align: center;
+}
+footer .second-footer h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 30px;
+}
+footer .second-footer p {
+  padding: 20px 300px 0px 300px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+footer .second-footer i {
+  margin: 0 10px;
+  font-size: 40px;
+  color: rgba(0, 47, 52, 0.6862745098);
+}
+footer .second-footer i:hover {
+  cursor: pointer;
+}
+footer .third-footer {
+  height: 330px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+}
+footer .third-footer .category-footer {
+  width: 1100px;
+  padding: 60px 80px;
+}
+footer .third-footer .list-img {
+  height: 120px;
+  width: 100px;
+  margin-left: 55px;
+  background-image: url(https://static.olx.pl/static/olxpl/packed/font/2fc1ef4e9c6a6dc640b6feb727836fabc7.svg);
+  background-size: cover;
+}
+footer .third-footer .category-list {
+  padding: 20px 60px;
+}
+footer .third-footer a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #002f34;
+  font-weight: lighter;
+}
+footer .fourth-footer {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+}
+footer .fourth-footer .links {
+  margin: 50px 100px;
+  float: left;
+}
+footer .fourth-footer .links .left-links {
+  width: 300px;
+  float: left;
+}
+footer .fourth-footer .links .right-links {
+  float: right;
+}
+footer .fourth-footer .links p {
+  padding: 5px;
+  margin: 0 30px;
+}
+footer .fourth-footer .links a {
+  color: #002f34;
+  font-weight: bolder;
+  text-decoration: none;
+  letter-spacing: 0.5;
 }/*# sourceMappingURL=main.css.map */
