@@ -229,4 +229,49 @@ main h2 {
 }
 .ads .card-details i:hover {
   color: #002f34;
+}
+
+footer .first-footer {
+  width: 100%;
+  height: 150px;
+  background-color: #002f34;
+  display: flex;
+  justify-content: center;
+}
+footer .first-footer .chart {
+  margin: 5px;
+  height: 140px;
+  width: 140px;
+  background-image: url(https://static.olx.pl/static/olxpl/packed/font/2fbd23c39bff0aee6c0c84aaf60e66347d.svg);
+  background-size: cover;
+  float: left;
+}
+footer .first-footer .footer-buisness {
+  margin: 40px 90px 40px 70px;
+  float: left;
+}
+footer .first-footer .footer-buisness p {
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .first-footer .footer-buisness h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+footer .first-footer .buisness-details {
+  margin: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  color: #002f34;
+  border: 4px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5;
+}
+footer .first-footer .buisness-details:hover {
+  background-color: #002f34;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
